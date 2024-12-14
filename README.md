@@ -1,8 +1,21 @@
-# React + Vite
+Overview
+This is the frontend of the Vehicle Management Dashboard, built using React.js with state management powered by Redux Toolkit. The application is styled with Tailwind CSS and communicates with a backend API for managing vehicle data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Stack
+Framework: React.js
+State Management: Redux Toolkit (RTK)
+Styling: Tailwind CSS
 
-Currently, two official plugins are available:
+Setup Instructions
+1. Clone the repository:
+git clone <repository-url>
+cd frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Install dependencies:
+npm install
+
+3. Set up the API base URL: In features/vehicles/vehiclesAPI.js, configure the backend API base URL:
+const BASE_URL = 'http://localhost:5000/api/vehicles';
+
+4. Start the development server
+npm start
