@@ -19,3 +19,5 @@ const BASE_URL = 'http://localhost:5000/api/vehicles';
 
 4. Start the development server
 npm start
+
+5. Open the application: Visit http://localhost:3000 in your browser to view the dashboard.
